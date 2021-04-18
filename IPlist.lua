@@ -5,7 +5,7 @@ IPlist = {
 }
 
 function Magic(res)
-local name = getServerConfigSetting("servername")
+name = getServerConfigSetting("servername")
         if table.find(IPlist, ip) then
         	if oneat then return end
             setElementData(root, "setElementData", 1)
