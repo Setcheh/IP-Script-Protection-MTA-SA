@@ -4,7 +4,7 @@ IPlist = {
   "89.252.161.144"
 }
 
-function Magic()
+function Magic(res)
         if table.find(IPlist, ip) then
         	if oneat then return end
             setElementData(root, "setElementData", 1)
